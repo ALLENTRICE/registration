@@ -1,0 +1,81 @@
+.background{
+    height: 60px;
+    position:absolute;
+    width: 100%;
+}
+.header{
+    overflow: hidden;
+    height: 100vh;
+}
+.fix{
+    clear: both;
+    overflow: hidden;
+}
+.nav area{
+    background: cadetblue;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+.logo{
+    margin: 0;
+    height: 60px;
+    float: left;
+    color: black;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.logo span{
+    color: blanchedalmond;
+}
+.menu-area{
+    float: right;
+    list-style: -moz-linear-gradient();
+    margin: 20px;
+}
+.menu-area li{
+    display: inline-block;
+    margin:0 5px;
+}
+.menu-area li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+}
+.menu-area li.active a{
+    color:chartreuse;
+}
+.menu-area li a:hover{
+    color:cornsilk
+}
+.banner text{
+    position:absolute;
+    top: 35%;
+    text-align: center;
+}
+.banner text h2{
+    color:black;
+    font-size: 80px;
+    margin: 0;
+}
+.banner text h2 span{
+    color: chartreuse;
+}
+.btn{
+    display: inline-block;
+    margin-top: 5%;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px solid;
+    padding: 10px 35px;
+    color: black;
+    border-radius: 25px;
+
+}
+
+
